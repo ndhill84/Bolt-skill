@@ -18,7 +18,7 @@ Bolt is a collaborative software development platform built for human-AI teamwor
 Set these environment variables before using this skill:
 
 ```bash
-export BOLT_BASE_URL="http://localhost:3000"   # Your Bolt instance URL
+export BOLT_BASE_URL="http://localhost:4000"   # Your Bolt API base URL
 export BOLT_API_TOKEN="your-token-here"         # Optional: only needed if server was started with BOLT_API_TOKEN
 ```
 
@@ -115,7 +115,7 @@ curl -s -X POST \
 curl -s -X PATCH \
   -H "Content-Type: application/json" \
   ${BOLT_API_TOKEN:+-H "x-bolt-token: $BOLT_API_TOKEN"} \
-  -d '{"blocked": true, "priority": "critical"}' \
+  -d '{"blocked": true, "priority": "urgent"}' \
   "$BOLT_BASE_URL/api/v1/stories/$STORY_ID"
 ```
 
@@ -176,7 +176,7 @@ curl -s -X POST \
 
 ## Priority Values
 
-`low` · `medium` · `high` · `critical`
+`low` · `med` · `high` · `urgent`
 
 ---
 
