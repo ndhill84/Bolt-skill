@@ -35,6 +35,9 @@ git clone https://github.com/ndhill84/Bolt-skill ~/.claude/skills/bolt-sprint
 
 # Codex CLI
 git clone https://github.com/ndhill84/Bolt-skill ~/.codex/skills/bolt-sprint
+
+# openClaw
+git clone https://github.com/ndhill84/Bolt-skill ~/.openclaw/skills/bolt-sprint
 ```
 
 Or via `npx skills` (if published to the skills registry):
