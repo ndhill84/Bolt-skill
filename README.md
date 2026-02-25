@@ -6,7 +6,7 @@
 [![Bolt API](https://img.shields.io/badge/Bolt-REST%20API-0ea5e9?style=flat-square)](https://github.com/ndhill84/Bolt)
 [![Works with Claude](https://img.shields.io/badge/Works%20with-Claude%20Code-d97706?style=flat-square&logo=anthropic&logoColor=white)](https://claude.ai/code)
 
-> An [Agent Skill](https://agentskills.io) for managing sprints and stories in [Bolt](https://github.com/ndhill84/Bolt) — a collaborative software development platform built for human-AI teamwork.
+> An [Agent Skill](https://agentskills.io) for managing sprints and stories in ⚡[Bolt](https://github.com/ndhill84/Bolt) — a collaborative software development platform built for human-AI teamwork.
 
 ---
 
