@@ -54,11 +54,11 @@ Set these environment variables before starting your AI session:
 
 | Variable | Required | Description |
 |----------|----------|-------------|
-| `BOLT_BASE_URL` | Yes | Base URL of your Bolt instance, e.g. `http://localhost:3000` |
+| `BOLT_BASE_URL` | Yes | Base URL of your Bolt instance, e.g. `http://localhost:4000` |
 | `BOLT_API_TOKEN` | No | API token — only needed if the server was started with `BOLT_API_TOKEN` set |
 
 ```bash
-export BOLT_BASE_URL="http://localhost:3000"
+export BOLT_BASE_URL="http://localhost:4000"
 export BOLT_API_TOKEN="your-token-here"  # omit if not using auth
 ```
 
